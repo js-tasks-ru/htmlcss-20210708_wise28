@@ -11,6 +11,7 @@ function enableBtn(btn) {
 let button_primary = document.body.querySelector('.btn-primary');
 body.addEventListener('click', (e) => {
     let target = e.target;
+    console.log(target);
     if(target == button_primary) {
         disableBtn(button_primary);
     }else {
