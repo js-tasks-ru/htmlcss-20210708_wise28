@@ -1,0 +1,42 @@
+.histogram {
+    margin-top: 39px;
+    max-width: 354px;
+    padding: 16px 24px;
+    border: 1px solid var(--grey-3);
+    border-radius: 8px;
+    font-family: 'Inter-Regular';
+    font-size: 16px;
+}
+.histogram__head {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 39px;
+
+}
+.histogram__view-all {
+    text-decoration: none;
+    align-self: center;
+    border-bottom: 1px solid transparent;
+}
+.histogram__view-all:hover {
+    border-bottom: 1px solid var(--blue);
+}
+
+.histogram__total-orders p {
+    padding-bottom: 6px;
+}
+.histogram__total-orders span {
+    font-size: 20px;
+}
+.histogram__content {
+    height: 100px;
+    display: flex;
+    align-items: flex-end;
+    gap: 1px;
+}
+.histogram__column {
+    background-color: #4263EB;
+    min-width: 1px;
+    flex-grow: 1;
+    flex-basis: 15%;
+}
