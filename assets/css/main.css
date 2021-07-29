@@ -6,11 +6,14 @@
     --pink: #F784AD;
     --purple: #7048E8;
     --blue: #374FC7;
+    --dark-blue: #4263EB;
+    --light-blue: #A0B1F5;
     --red: #F03D3E;
     --grey-1: #F8F9FA;
     --grey-2: #DDE2E5;
     --grey-3: #ACB5BD;
     --grey-4: #495057;
+    --grey-5: #90A0B7;
 
     --error: var(--red);
     --success: var(--blue);
@@ -21,4 +24,22 @@
 
 * {
     font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:after, :before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.page__container {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    padding-left: 15px;
+    padding-right: 15px;
 }
